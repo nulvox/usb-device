@@ -33,3 +33,6 @@ test-class-high-speed = []
 name = "test_class_host"
 path = "tests/test_class_host/main.rs"
 harness = false
+
+[build]
+rustflags = ["--cfg", "target_has_atomic_load_store=ptr"]
