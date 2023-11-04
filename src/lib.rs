@@ -35,7 +35,6 @@
 
 #![no_std]
 #![warn(missing_docs)]
-#![feature(ptr)]
 
 /// A USB stack error.
 #[derive(Copy, Clone, Eq, PartialEq, Debug)]
