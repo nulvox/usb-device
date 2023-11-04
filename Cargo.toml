@@ -35,4 +35,4 @@ path = "tests/test_class_host/main.rs"
 harness = false
 
 [build]
-rustflags = ["--cfg", "target_has_atomic_load_store=ptr"]
+rustflags = ["--cfg", "target_has_atomic_load_store", "=", "ptr"]
