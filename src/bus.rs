@@ -1,3 +1,4 @@
+#[feature(ptr)]
 use crate::endpoint::{
     Endpoint, EndpointAddress, EndpointDirection, EndpointType, IsochronousSynchronizationType,
     IsochronousUsageType,
